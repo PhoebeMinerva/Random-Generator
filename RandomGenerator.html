@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="RandomGenerator.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Silly Sayings</title>
+</head>
+<body>
+	<h1 id="title">Start Your Day With A Silly Sentence!</h1>
+
+	<div class="wordInputContainer">
+		<div>
+			<p>Enter a noun.</p>
+			<input id="nounOneInput" type="text">
+		</div>
+		<div>
+			<p>Enter a verb ending with "ing".</p>
+			<input id="verbOneInput">
+		</div>
+		<div>
+			<p>Enter another noun.</p>
+			<input id="nounTwoInput">
+		</div>
+	</div>
+
+	<div class="sentenceContainer">
+		<div>
+			<button id="todaysSillySaying">And Today's Silly Saying Is...</button>
+		</div>
+		<div id="generatedSentenceContainer">
+			<p id="generatedSentence">Drumroll, please....</p>
+		</div>
+	</div>
+
+	<!-- script should be at the bottom -->
+	<script src="RandomGenerator.js"></script>
+
+</body>
+</html>
